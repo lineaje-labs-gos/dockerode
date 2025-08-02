@@ -1,14 +1,14 @@
 {
   "name": "dockerode",
   "description": "Docker Remote API module.",
-  "version": "3.3.5",
+  "version": "3.3.5-lineaje-01",
   "author": "Pedro Dias <petermdias@gmail.com>",
   "maintainers": [
     "apocas <petermdias@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/apocas/dockerode.git"
+    "url": "https://github.com/lineaje-labs-gos/dockerode"
   },
   "keywords": [
     "docker",
@@ -30,6 +30,12 @@
     "test": "./node_modules/mocha/bin/mocha.js -R spec --exit"
   },
   "license": "Apache-2.0",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "engines": {
     "node": ">= 8.0"
   }
